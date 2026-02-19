@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategic Subtractor</title>
+  <meta name="description" content="Every company on earth has spent twenty years adding technology. Nobody's subtracting. We subtract.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --cream: #EDEDDD;
+      --dark: #141413;
+      --gray: #828282;
+      --mono: 'Roboto Mono', monospace;
+      --sans: 'Inter', -apple-system, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background: var(--cream);
+      color: var(--dark);
+      font-family: var(--sans);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .url {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--dark);
+      margin-bottom: 3rem;
+    }
+
+    .body-text {
+      font-family: var(--sans);
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--dark);
+      margin-bottom: 1.75rem;
+    }
+
+    .chill {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--dark);
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .contact {
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: var(--gray);
+    }
+
+    .contact a {
+      color: var(--dark);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gray);
+      transition: border-color 0.2s;
+    }
+
+    .contact a:hover {
+      border-bottom-color: var(--dark);
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 2rem 1.5rem; align-items: flex-start; padding-top: 4rem; }
+      .body-text { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="url">strategicsubtractor.com</div>
+    <p class="body-text">Look, we appreciate you typing this into a browser. Truly. But the site's not built yet because we've been busy untangling other people's problems.</p>
+    <p class="body-text">We'll be here shortly. In the meantime, the philosophy is simple: every company on earth has spent twenty years adding technology. Nobody's subtracting. We subtract.</p>
+    <div class="chill">Chill, Winston.</div>
+    <div class="contact">If you need us now: <a href="mailto:hello@strategicsubtractor.com">hello@strategicsubtractor.com</a></div>
+  </div>
+
+</body>
+</html>
